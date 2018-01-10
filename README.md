@@ -15,14 +15,15 @@ https://intelipost-frontend-developer.herokuapp.com/
 
 # Conteudo
 
+* 
+* [Ferramentas e Framewroks](#ferramentas-e-frameworks)
+* [Instalando](#instalando)
+* [Rodando o app](#rodando-o-app)
+* [Testes Unitarios](#testes-unitarios)
+* [Build](#build)
+* [Desenvolvimento](#desenvolvimento)
 * [Estrutura de Pastas](#estrutura-de-pastas)
-    * [Ferramentas e Framewroks](#dependencies)
-    * [Instalando](#installing)
-    * [Rodando o app](#rodando-o-app)
-    * [Testes Unitarios](#testes-unitarios)
-    * [Build](#build)
-    * [Desenvolvimento](#desenvolvimento)
-
+* [A fazer](#a-fazer)
 ## Ferramentas e Frameworks
 - ES7
 - Less
@@ -105,4 +106,4 @@ Por fim a maior dificuldade do projeto, foi a realização de teste unitários. 
 - [x] Listagem dos videos e das informações do artista
 - [x] Validação no formulario de busca
 - [ ] Testes de Unidade 
-  [ ] Testes de Aceitação   
+- [ ] Testes de Aceitação   
