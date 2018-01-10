@@ -8,7 +8,6 @@ export default
 
   angular.module('app.search', [])
     .component('search', {
-      bindings: { search: '<' },
       template: SearchTemplate,
       controllerAs: '$ctrl',
     })

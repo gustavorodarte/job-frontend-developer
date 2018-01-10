@@ -14,18 +14,18 @@ function config($stateProvider, $urlServiceProvider, $locationProvider) {
     url: '/:bandName',
     component: 'videos',
     resolve: {
-      searchResult: function ($transition$, youtubeService) {
+      searchResult: ['$transition$', 'youtubeService', function ($transition$, youtubeService) {
         let bandName = $transition$.params().bandName;
         return youtubeService.getSearchResults(bandName);
-      },
-      bandInfo: function ($transition$, ticketMasterService) {
+      }],
+      bandInfo: [ '$transition$', 'ticketMasterService', function ($transition$, ticketMasterService) {
         let bandName = $transition$.params().bandName;
         return ticketMasterService.getBandInfo(bandName);
-      },
-      bandName: function ($transition$) {
+      }],
+      bandName: [ '$transition$', function ($transition$) {
         let bandName = $transition$.params().bandName;
         return bandName;
-      }
+      }]
 
     },
   });

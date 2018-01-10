@@ -1,5 +1,5 @@
 class VideosController {
-    constructor($state) {
+    constructor() {
         this.$onInit = this.$onInit.bind(this);
     }
 
@@ -18,6 +18,5 @@ class VideosController {
 }
 
 
-VideosController.$inject = ['$state'];
 export default VideosController;
 
