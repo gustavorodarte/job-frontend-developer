@@ -45742,7 +45742,7 @@ exports = module.exports = __webpack_require__(27)();
 
 
 // module
-exports.push([module.i, "#custom-search-input {\n  padding: 3px;\n  border-bottom: solid 2px #E4E4E4;\n  /* border-radius: 6px; */\n  /* background-color: #fff; */\n}\n#custom-search-input input {\n  border: 0;\n  box-shadow: none;\n  background: transparent;\n  border: none;\n  color: #fff;\n  font-size: 50px;\n  font-family: 'Raleway', sans-serif;\n}\n#custom-search-input ::-webkit-input-placeholder {\n  /* Chrome/Opera/Safari */\n  font-size: 50px;\n  color: #fff;\n}\n#custom-search-input ::-moz-placeholder {\n  /* Firefox 19+ */\n  font-size: 50px;\n  color: #fff;\n}\n#custom-search-input :-ms-input-placeholder {\n  /* IE 10+ */\n  font-size: 50px;\n  color: #fff;\n}\n#custom-search-input :-moz-placeholder {\n  /* Firefox 18- */\n  font-size: 50px;\n  color: #fff;\n}\n#custom-search-input button {\n  margin: 2px 0 0 0;\n  background: none;\n  box-shadow: none;\n  border: 0;\n  color: #666666;\n  padding: 15px 8px 0 10px;\n}\n#custom-search-input .glyphicon-search {\n  font-size: 23px;\n  color: #fff;\n}\n#custom-search-input .searchIcon {\n  color: #fff;\n}\n", ""]);
+exports.push([module.i, "#custom-search-input {\n  padding: 3px;\n  border-bottom: solid 2px #E4E4E4;\n  /* border-radius: 6px; */\n  /* background-color: #fff; */\n}\n#custom-search-input input {\n  border: 0;\n  box-shadow: none;\n  background: transparent;\n  border: none;\n  color: #fff;\n  font-size: 5vh;\n  font-family: 'Raleway', sans-serif;\n}\n#custom-search-input ::-webkit-input-placeholder {\n  /* Chrome/Opera/Safari */\n  font-size: 5vh;\n  color: #fff;\n}\n#custom-search-input ::-moz-placeholder {\n  /* Firefox 19+ */\n  font-size: 5vh;\n  color: #fff;\n}\n#custom-search-input :-ms-input-placeholder {\n  /* IE 10+ */\n  font-size: 5vh;\n  color: #fff;\n}\n#custom-search-input :-moz-placeholder {\n  /* Firefox 18- */\n  font-size: 5vh;\n  color: #fff;\n}\n#custom-search-input button {\n  margin: 2px 0 0 0;\n  background: none;\n  box-shadow: none;\n  border: 0;\n  color: #666666;\n  padding: 15px 0 10px 10px;\n}\n#custom-search-input .glyphicon-search {\n  color: #fff;\n}\n#custom-search-input .searchIcon {\n  font-size: 5vh;\n  color: #fff;\n}\n", ""]);
 
 // exports
 
@@ -45756,7 +45756,7 @@ exports = module.exports = __webpack_require__(27)();
 
 
 // module
-exports.push([module.i, "#masonry {\n  background-color: #080808 !important;\n  color: #080808;\n  height: 80vh;\n  overflow-y: auto;\n}\n#masonry a {\n  color: #00000088 88;\n}\n#masonry a:focus {\n  color: #00000088 88;\n}\n#masonry a:hover {\n  color: #00000088 88;\n}\n#masonry .homepage {\n  color: #00000088 88;\n}\n#masonry h2 {\n  text-shadow: 0 1px 3px #00000080;\n}\n#bandInfo {\n  background-color: #f8b200;\n}\n#bandInfo h2 {\n  color: #00000088 88;\n}\n", ""]);
+exports.push([module.i, "#masonry {\n  background-color: #080808 !important;\n  color: #080808;\n  height: 80vh;\n  overflow-y: auto;\n  font-family: 'Raleway', sans-serif;\n}\n#masonry a {\n  color: #00000088 88;\n}\n#masonry a:focus {\n  color: #00000088 88;\n}\n#masonry a:hover {\n  color: #00000088 88;\n}\n#masonry .homepage {\n  color: #00000088 88;\n}\n#masonry h2 {\n  text-shadow: 0 1px 3px #00000080;\n}\n#bandInfo {\n  background-color: #f8b200;\n}\n#bandInfo h2 {\n  color: #00000088 88;\n}\n", ""]);
 
 // exports
 
@@ -45947,4 +45947,4 @@ exports.default = MODULE_NAME;
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=app.fbbb12bcdd1d8720bdd9.js.map
+//# sourceMappingURL=app.109e1b660aa91443d495.js.map
