@@ -5,11 +5,12 @@ function ticketMasterService($http) {
         getBandInfo: getBandInfo
     }
 
+    const apikey='q2GNlCrgGo6c8uej3Ib4MsbAC2KIr5nG';
 
     return service;
 
     function getBandInfo(bandName) {
-        return $http.get("https://app.ticketmaster.com/discovery/v2/attractions.json?apikey=q2GNlCrgGo6c8uej3Ib4MsbAC2KIr5nG&keyword=" + bandName)
+        return $http.get("https://app.ticketmaster.com/discovery/v2/attractions.json?apikey="+ apikey+"&keyword=" + bandName)
             .then(getBandInfoComplete)
             .catch(getBandInfoFailed);
     }

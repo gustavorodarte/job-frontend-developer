@@ -12,5 +12,3 @@ angular.module('app.home', [])
   controllerAs: '$ctrl',
 })
 .name;
-
-

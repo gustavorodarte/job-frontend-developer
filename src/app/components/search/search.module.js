@@ -12,5 +12,3 @@ export default
       controllerAs: '$ctrl',
     })
     .name;
-
-

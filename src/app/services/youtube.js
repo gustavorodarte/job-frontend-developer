@@ -4,10 +4,12 @@ function youtubeService($http) {
         getSearchResults: getSearchResults
     };
 
+    const apiKey = "AIzaSyDd_sfvQ4NASb-k0oKYAr_g9FZcQILtyKc";
+
     return service;
 
     function getSearchResults(searchTerm) {
-        return $http.get("https://www.googleapis.com/youtube/v3/search?key=AIzaSyDd_sfvQ4NASb-k0oKYAr_g9FZcQILtyKc&type=video&maxResults=8&part=snippet&q=" + searchTerm)
+        return $http.get("https://www.googleapis.com/youtube/v3/search?key=" + apiKey + "&type=video&maxResults=8&part=snippet&q=" + searchTerm)
             .then(getSearchResultsComplete)
             .catch(getSearchResultsFailed);
     }

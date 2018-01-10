@@ -19,4 +19,3 @@ class VideosController {
 
 
 export default VideosController;
-

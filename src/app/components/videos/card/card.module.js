@@ -10,5 +10,3 @@ export default
             template: CardTemplate,
         })
         .name;
-
-
